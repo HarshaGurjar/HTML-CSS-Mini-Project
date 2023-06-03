@@ -1,0 +1,232 @@
+/*CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* CSS Variables */
+:root {
+    --navbar-height: 59px;
+}
+/*Navigation Bar*/
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0px;
+}
+
+.bg{
+    background-image:url("bgimg1.jpg"); 
+     background-repeat:no-repeat; 
+    background-size: 100%;
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(219, 247, 143);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.4; 
+}
+
+#navbar ul {
+    display: flex;
+}
+#navbar ul li {
+    list-style:none;
+    font-style: 'Cinzel Decorative', cursive;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 6 rem;
+    font-weight: bold;
+}
+#navbar ul li a{
+    padding: 10px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color:black;
+    font-size: 20 rem;
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: rgb(209, 245, 111);
+}
+.item{
+    list-style: none;
+    margin-left: 90px;
+}
+.pic{
+    height: 138px;
+    width: 138px;
+}
+
+#home{
+    display: flex;
+    height:550px;
+    justify-content: flex-start;
+    flex-direction:column;
+    padding:3px 2px;
+    align-items: center;
+    margin-top: 28px;
+}
+.primary{
+    color:rgb(22, 236, 222);
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.primary2{
+
+    color:white;
+    font-size: 6 rem;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.btn{
+    padding:6px 20px;
+    border:2px solid white;
+    background-color:rgb(219, 247, 143) ;
+    color:black;
+    margin:17px;
+    font-family:'Cinzel Decorative', cursive; ;
+    font-size: 2.5 rem,;
+    border-radius: 8px;
+    cursor:pointer;
+}
+.bt{
+    text-decoration-line: none;
+}
+#home button:hover{
+    color:black;
+    background-color: rgb(132, 176, 11);
+    
+}
+
+.servicescontainer{
+    color:black;
+    font-size: 4 rem;
+    font-family: 'Cinzel Decorative', cursive;   
+    align-items: center;
+}
+.primaryservice{
+    font-size: 3 rem;
+    padding: 10px;
+    text-align: center;
+    margin-top: -8px;
+}
+.secondayservice{
+    font-size: 3 rem;
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#services{
+    margin:34px;
+    display:flex;
+}
+.secondaryservice1{
+    font-size: 3 rem;
+    padding: 10px;
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 20px;
+}
+.secondaryservice2{
+    font-size: 3 rem;
+    padding: 10px;
+    text-align: center;
+    margin-left: 56px;
+    margin-right: 21px;
+}
+.service1{
+    margin-left: -12px;
+    margin-right: 49px;
+    margin-top: -5px;
+    margin-bottom: 33px;
+
+}
+.service2{
+    margin-left: 36px;
+    margin-right: -12px;
+    margin-top: -2px;
+    margin-bottom: 31px;
+}
+.service3{
+    margin-left: 100px;
+    margin-right: 29px;
+    margin-top: -1px;
+    margin-bottom: 20px;
+}
+.box{
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    
+}
+.box img {
+    height: 261px;
+    width: 434px;
+    border-radius: 1px;
+}
+input[type=text]{
+    font-weight: bold;
+    font-family: 'Cinzel Decorative', cursive;
+}
+input[type=text], select, textarea {
+    display:flex;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  input[type=submit] {
+    background-color: #78e9ada0;
+    color: rgb(219, 247, 143);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 74px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: rgb(219, 247, 143);
+    padding: 20px;
+  }
+  
+#footer{
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 4 rem;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+    background-image:url("table3.jpg"); 
+    background-repeat:no-repeat; 
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+}
+.footer1{
+    background-image:url("table3.jpg"); 
+    background-repeat:no-repeat; 
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+}
+.footer2{
+    margin-left: 635px;
+}
+body{
+    background-color:rgb(219, 247, 143);
+}
